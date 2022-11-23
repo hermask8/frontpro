@@ -14,24 +14,24 @@ function App() {
       className="App"
       style={{
         height:
-          window.location.href === "https://frontend-two-pink.vercel.app/chat"
+          window.location.href === "https://frontpro.vercel.app/chat"
             ? "calc(100vh - 2rem)"
             : "auto",
         backgroundImage: 
-        window.location.href === "https://frontend-two-pink.vercel.app/auth"
+        window.location.href === "https://frontpro.vercel.app/auth"
         ?  "none" : '',
         padding: 
-        window.location.href === "https://frontend-two-pink.vercel.app/auth"
+        window.location.href === "https://frontpro.vercel.app/auth"
         ?  "0rem" : ''
       }}
     >
       <div className="blur" style={{ top: "-18%", right: "0",
         display: 
-        window.location.href === "https://frontend-two-pink.vercel.app/auth"
+        window.location.href === "https://frontpro.vercel.app/auth"
         ?  "none" : '', }}></div>
       <div className="blur" style={{ top: "36%", left: "-8rem",
         display: 
-        window.location.href === "https://frontend-two-pink.vercel.app/auth"
+        window.location.href === "https://frontpro.vercel.app/auth"
         ?  "none" : '', }}></div>
       <Routes>
         <Route
